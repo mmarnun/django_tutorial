@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '9f0h)gozf$g%6igo8&767w1xro0adm+)msxe)!eic$!fhvynb8'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -122,4 +122,4 @@ STATIC_URL = '/static/'
 
 DEFAULT_AUTO_FIELD='django.db.models.AutoField' 
 
-STATIC_ROOT = '/var/www/html/django_tutorial/static/'
+STATIC_ROOT = '/home/debian/django_tutorial/static/'
